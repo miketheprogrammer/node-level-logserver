@@ -1,0 +1,1 @@
+var LogDb = require('../index')

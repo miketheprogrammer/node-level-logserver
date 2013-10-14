@@ -1,0 +1,49 @@
+{
+  "name": "node-level-logserver",
+  "version": "0.0.1",
+  "description": "A log server for asynchronous logging. Persisted by leveldb",
+  "main": "index.js",
+  "bin": {
+    "browserify": "bin/cmd.js"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miketheprogrammer/node-level-logserver.git"
+  },
+  "keywords": [
+    "node",
+    "level",
+    "log",
+    "server",
+    "log",
+    "server",
+    "REST",
+    "tcp",
+    "udp",
+    "sockets",
+    "transports",
+    "winston",
+    "console"
+  ],
+  "author": "Michael Hernandez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miketheprogrammer/node-level-logserver/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  },
+  "dependencies": {
+    "restify": "~2.6.0",
+    "level-stream-iterator": "0.0.1",
+    "leveldown": "~0.9.1",
+    "levelup": "~0.17.0",
+    "commander": "~2.0.0",
+    "JSONStream": "~0.7.1",
+    "event-stream": "~3.0.16",
+    "multilevel": "~5.5.0"
+  }
+}
